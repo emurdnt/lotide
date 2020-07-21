@@ -20,6 +20,6 @@ const eqArrays = function (array1,array2){
       break;
     }
   }
-  console.log(result);
+  return result;
 }
 
