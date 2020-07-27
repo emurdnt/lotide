@@ -1,10 +1,13 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`✔️✔️✔️ Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`😨😨😨 Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
+// const assertEqual = function(actual, expected) {
+//   if (actual === expected) {
+//     console.log(`✔️✔️✔️ Assertion Passed: ${actual} === ${expected}`);
+//   } else {
+//     console.log(`😨😨😨 Assertion Failed: ${actual} !== ${expected}`);
+//   }
+// };
+
+
+//remember the path if they exist in the same directory
 
 const tail = function(array) {
   let newArray = [];
@@ -19,6 +22,6 @@ const tail = function(array) {
   
 };
 
-const words = [];
-tail(words); // no need to capture the return value since we are not checking it
-assertEqual(words.length, 3); // original array should still have 3 elements!
+module.exports = tail;
+//since we are not checking it
+//should still have 3 elements!
